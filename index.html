@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tradobox</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- Font yellowtail -->
+   <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Yellowtail:300,400,700' rel='stylesheet' type='text/css'>
+   <!-- Font Poiret One -->
+   <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+   <!-- header -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    <h3 class="titulo">TRADOBOXLOGO</h3>
+                </div>
+                <div class="col-xs-7">
+                        
+                         <div class="input-group">
+                          <div class="input-group-btn">
+                            <button type="button" id="categories" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Deals</a></li>
+                              <li><a href="#">Women</a></li>
+                              <li><a href="#">Men</a></li>
+                              <li><a href="#">Kids</a></li>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Electronics</a></li>
+                              <li><a href="#">Jewelry</a></li>
+                              <li><a href="#">Computers</a></li>
+                            </ul>
+                          </div><!-- /btn-group -->
+                          <input id="searchbox" type="text" class="form-control" placeholder="Search... Nearby Markets, Products, Brands, Stores" aria-describedby="basic-addon2">
+                              <span class="input-group-addon" id="basic-addon2"><i class="fa fa-search"></i></span>
+                              
+                        </div><!-- /input-group -->
+                </div>
+                <div class="col-xs-3 city-info">
+                     <h5>NCR Delhi <i class="fa fa-map-marker"></i></h5>
+                     <input type="text" id="city" placeholder="City, State or PIN">
+                     <i class="fa fa-refresh"></i>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+       
+    </header>
+    <!-- ======= -->
+    
+    
+    <!-- post header -->
+     <section class="post-header text-center">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-2 text-left departments">
+                   Departments <i class="fa fa-caret-down"></i>
+               </div>
+                <div class="col-xs-8 text-left">
+                    <ul>
+                        <li>Deals <i class="fa fa-gavel"></i></li>
+                        <li>Women <i class="fa fa-female"></i></li>
+                        <li>Men <i class="fa fa-male"></i></li>
+                        <li>Kids <i class="fa fa-child"></i></li>
+                        <li>Home <i class="fa fa-home"></i></li>
+                        <li>Electronics <i class="fa fa-laptop"></i></li>
+                        <li>Jewelry <i class="fa fa-diamond"></i></li>
+                        <li class="hovered">Markets <i class="fa fa-shopping-bag "></i></li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 text-right">
+                    <span class="sign-in"><a href="">Sign In</a></span>
+                    <span class="or">|</span>
+                    <span class="register"><a href="">Register</a></span>
+                </div>
+            </div>
+        </div>
+        </section>
+    <!-- ========== -->
+    
+    
+    <!-- top searches -->
+    <section class="top-searches">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <span class="line"><h3>Recent Product Searched / Top Searches</h3></span>
+                    <div class="row">
+                        <div class="col-xs-3">
+                           <div class="img-product-wrapper">
+                                
+                                <img src="images/products/product-1.jpg" class="img-responsive" alt="">
+                                <span class="hover-img">
+                                    <span class="hover-info text-center">
+                                        <i class="fa fa-search"></i> 
+                                    </span>
+                                </span>
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-2.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div> 
+                              <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span> 
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-3.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                              <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-4.jpg" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row">
+                <div class="col-xs-12 text-right">
+                    <i class="fa fa-plus-circle"></i>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <!-- ========== -->
+    
+    <!-- ===============MAIN =================== -->
+    <section class="main">
+        <div class="container">
+            <div class="row">
+               <!-- MENU -->
+                <div class="col-xs-3 ">
+                   <div class="row">
+                       <div class="col-xs-12">
+                           <h3 class="menu-title">Feature Products</h3>
+                       </div>
+                   </div>
+                    
+                    <div class="row">
+                        <div class="menu-bar col-xs-11">
+                            <span class="category-title">HOME</span><span> products from </span>
+                            <span class="blue-box"></span>
+                            <span class="menu-price pull-right">
+                               20$
+                            </span>
+                        </div>
+                          <div class="menu-bar col-xs-11">
+                            <span class="category-title">KIDS</span><span> products from </span>
+                            <span class="blue-box"></span>
+                            <span class="menu-price pull-right">
+                               20$
+                            </span>
+                        </div>
+                         <div class="menu-bar col-xs-11">
+                            <span class="category-title">MEN</span><span> products from </span>
+                            <span class="blue-box"></span>
+                            <span class="menu-price pull-right">
+                               20$
+                            </span>
+                        </div>
+                          <div class="menu-bar col-xs-11">
+                            <span class="category-title">WOMEN</span><span> products from </span>
+                            <span class="blue-box"></span>
+                            <span class="menu-price pull-right">
+                               20$
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12">
+                        <h3 class="menu-title">Price Range</h3>
+                        <ul>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>Below 1,000$</span>
+                            
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>1,000$ &mdash; 5,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>5,000$ &mdash; 7,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>7,000$ &mdash; 9,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>9,000$ &amp; Above</span></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="menu-title">Distance</h3>
+                        <ul>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>Below 1,000$</span>
+                            
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>1,000$ &mdash; 5,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>5,000$ &mdash; 7,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>7,000$ &mdash; 9,000$</span></li>
+                            <li class="price-range"><i class="fa fa-chevron-circle-right"></i><span>9,000$ &amp; Above</span></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="menu-title promotion-title">Optional Promotion</h3>
+                        </div>
+                        <div class="relative">
+                        <img class="img-responsive" src="images/products/product-3.jpg" alt="">
+                        
+                            <h3 class="promotion-sidebar">ONLY 9,99$ <br></h3>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- ===MAIN==== -->
+                
+                <div class="col-xs-9 main-content">
+                   <!-- PROMOTIONS -->
+                   <section class="promotions">
+                   <div class="row">
+                       <div class="col-xs-12">
+                           <h3 class="menu-title">Super Daily Promotion</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                   <div class="col-xs-12">
+                       <div class="row">
+                           <div class="col-xs-8">
+                               <div class="relative">
+                                   <img src="images/products/wide-product.jpg"  alt="" class="img-responsive" >
+                                   <span class="promo-info">
+                                       50% discount &mdash; 65,00 &#36;
+                                   </span>
+                               </div>
+                               
+                           </div>
+                           <div class="col-xs-4">
+                                <h3 class="menu-title">Nike Air Max</h3>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ad at tenetur. Dolorum quod voluptate quae, labore saepe ab officia, numquam laboriosam repellendus reprehenderit, voluptatibus esse nobis repudiandae sint exercitationem.</p>
+                               <button class="button-promotion" type="button">See more</button>
+                           </div>
+                       </div>
+                   </div>
+                   </div>
+                   </section>
+                   <!-- =================== -->
+                    <!-- MARKETS-NEAR -->
+                    <section class="markets-near">
+                        <div class="row"><div class="col-xs-12"><span class="line"><h3 class="menu-title">Markets Near You</h3></span></div></div>
+                        <div class="row">
+                        <div class="col-xs-12">
+                           <div class="col-xs-3">
+                           <div class="img-product-wrapper">
+                                
+                                <img src="images/products/shop-1.jpg" class="img-responsive" alt="">
+                                <span class="hover-img">
+                                    <span class="hover-info text-center">
+                                        <i class="fa fa-search"></i> 
+                                    </span>
+                                </span>
+                                <span class="price">
+                                    5,5 KM
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Mary Kilvert</span>
+                                <div class="hour"><i class="fa fa-clock-o"></i> MON to SAT &mdash; 8am - 5pm</div>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/shop-2.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    15 KM
+                                </span>
+                            </div> 
+                              <span class="product-name">
+                                <span class="name">One Fine Beginning</span>
+                                <div class="hour"><i class="fa fa-clock-o"></i> MON to SAT &mdash; 8am - 5pm</div>
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span> 
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/shop-3.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    9,2 KM
+                                </span>
+                            </div>
+                              <span class="product-name">
+                                <span class="name">Healthink</span>
+                                <div class="hour"><i class="fa fa-clock-o"></i> MON to SAT &mdash; 8am - 5pm</div>
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/shop-4.jpg" alt="">
+                                <span class="price">
+                                    1,4 KM
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Harry Potter Platform 3/4</span>
+                                <div class="hour"><i class="fa fa-clock-o"></i> MON to SAT &mdash; 8am - 5pm</div>
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                    </div>
+                        <div class="row">
+                <div class="col-xs-12 text-right">
+                    <i class="fa fa-plus-circle"></i>
+                </div>
+            </div>
+                       </div>
+                       
+                    </section>
+                    <!-- ================= -->
+                    
+                    
+                      <!-- DEALS-NEAR -->
+                    <section class="deals-near">
+                        <div class="row"><div class="col-xs-12"><span class="line"><h3 class="menu-title">Deals Near You</h3></span></div></div>
+                        <div class="row">
+                        <div class="col-xs-12">
+                           <div class="col-xs-3">
+                           <div class="img-product-wrapper">
+                                
+                                <img src="images/products/product-9.jpg" class="img-responsive" alt="">
+                                <span class="hover-img">
+                                    <span class="hover-info text-center">
+                                        <i class="fa fa-search"></i> 
+                                    </span>
+                                </span>
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-8.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div> 
+                              <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span> 
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-7.jpg" class="img-responsive" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                              <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                           <div class="col-xs-3">
+                            <div class="img-product-wrapper">
+                                <img src="images/products/product-6.jpg" alt="">
+                                <span class="price">
+                                    1,057$
+                                </span>
+                            </div>
+                            <span class="product-name">
+                                <span class="name">Apple IMAC 27'</span>
+                                
+                                <div class="kudos">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div> 
+                            </span>
+                        </div>
+                    </div>
+                        <div class="row">
+                <div class="col-xs-12 text-right">
+                    <i class="fa fa-plus-circle"></i>
+                </div>
+            </div>
+                       </div>
+                       
+                    </section>
+                    <!-- ================= -->
+                    
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    
+    
+    
+    <section class="hero">
+       <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <span><strong>Subscribe to our mailing list.</strong> We'll send special offers as a thank you. </span><input type="button" class="btn btn-lg" value="Click here to subscribe"> 
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                <h3 class="menu-title">
+                About us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore nulla itaque excepturi ea atque officiis recusandae soluta animi, ipsam necessitatibus veritatis, distinctio tenetur doloremque aut. Voluptatibus provident nobis illo.</p>
+                <h3 class="menu-title">Social <Networks></Networks></h3>
+                 <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <span class="social">
+                            <i class="fa fa-facebook"></i>
+                        </span>
+                        <span class="social">
+                            <i class="fa fa-twitter"></i>
+                        </span>
+                        <span class="social">
+                            <i class="fa fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            
+            
+                <div class="col-xs-3">
+                <h3 class="menu-title">
+                Get in touch</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt labore nulla itaque excepturi ea atque officiis recusandae soluta animi, ipsam necessitatibus veritatis, distinctio tenetur doloremque aut. Voluptatibus provident nobis illo.</p>
+                
+                </div>
+                
+                <div class="col-xs-6 text-center">
+                    <input type="text" class="form-control" placeholder="Your name">
+                    <input type="text" class="form-control" placeholder="Your email">
+                    <textarea class="form-control" placeholder="Your message" rows="5"></textarea>
+                    <button class="btn btn-md btn-message ">Send your message</button>
+                </div>
+               
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+    <script src="js/jquery-3.1.0.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>   
+</body>
+
+
+</html>

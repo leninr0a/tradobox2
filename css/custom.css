@@ -1,0 +1,340 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+}
+a,
+a:visited{
+    color:#CDCD83;
+}
+/*==== header ====*/
+header .container-fluid{
+    background:#1F2438;
+    color:#fff;
+    padding:10px 20px;
+}
+body{background: url('../images/tile.jpg');}
+
+header input#searchbox{
+    width:100%;
+    color:#000;
+}
+
+.departments{
+    padding:10px 0 0 20px;
+    color:#fff;
+}
+
+.city-info{
+    padding:5px;
+}
+#city{
+    width:30%;
+    background:#1f2438;
+    border:0;
+    border-bottom:1px solid #eee;
+    margin-left:10px;
+}
+header h5{
+    display: inline-block;
+}
+.sign-in{
+    color:#CDCD83;
+}
+
+.register a,
+.register a:hover,
+.register a:visited,
+.or{
+    color:#fff;
+}
+
+#basic-addon2,#categories    {
+    background:#cdcd83;
+    color:#1f2438;
+}
+
+header h3.titulo{
+    padding-top:10px;
+    
+    font-weight: bold;
+}
+
+.fa-map-marker{
+    color:#ee202d;
+}
+/* ==== post header === */
+.post-header{
+    background:#1F2438;
+    border-bottom:4px solid #CDCD83;
+}
+
+.post-header ul{
+    margin-bottom:0;
+}
+
+.post-header ul li{
+    display: inline-block;
+    list-style: none;
+    padding:10px 20px;
+    border-left:1px solid rgba(255,255,255,0.2);
+    color:#fff;  
+}
+
+.post-header ul li:hover, .hovered{
+    background:#CDCD83;
+}
+
+/* ==== top searches ===*/
+
+
+.top-searches .container{
+    padding:40px 30px 5px;
+    background:#fff;
+   
+}
+
+span.line{
+display:block;
+border-top:1px solid #1f2438;
+}
+
+span.line h3{
+    position:relative;
+    background:#fff;
+    bottom:18px;
+    padding:0 10px;
+    display:inline-block;
+    font-family: 'Poiret One', cursive;
+
+}
+
+
+.img-product-wrapper{
+    border:1px solid #eee;
+    padding:5px;
+    width:100%;
+    height:200px;
+    position:relative;
+    background: #fff;
+}
+
+span.hover-img{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(205,205,131,0.6);
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+span.hover-img i{
+    display:block;
+}
+
+span.hover-info{
+    display:block;
+    padding:90px 0;
+    font-size:2em;
+}
+
+span.price{
+    background:#1F2438;
+    color:#fff;
+    padding:5px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+
+.img-product-wrapper img{
+    max-height: 90%;  
+    max-width: 90%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.fa.fa-plus-circle{
+    font-size:2em;
+}
+
+.kudos{
+    color:#cdcd83;
+}
+
+
+/*========== MENU ===============*/
+.main .container{
+    padding:20px 30px 100px;
+    background:#fff;
+}
+
+.menu-title{
+    font-family: 'Poiret One','cursive';
+}
+
+.main ul{
+    list-style: none;
+    margin-top:10px;
+}
+
+.main ul li.price-range{
+
+    padding:3px 0;
+    list-style: none;
+    color:#1f2438;
+   
+}
+
+.main ul li i {
+    margin:0 10px;
+}
+
+.menu-bar{
+    border:1px solid #eee;
+    margin:10px;
+    padding-right:0;
+    background:#cdcd83;
+    text-transform:uppercase;
+    overflow: hidden;
+    
+}
+
+.menu-bar .category-title{
+    padding:10px 1px;
+    padding-left:0;
+    font-weight:bold;
+    color:#1f2438;
+    display: inline-block;
+}
+
+.menu-price{
+    padding:10px;
+    background:#1f2438;
+    color:#fff;
+
+}
+
+.promotions{
+    margin-bottom:20px;
+    padding-left:0;
+}
+.promotions h3{
+    padding-bottom:10px;
+}
+
+.promo-info{
+    padding:20px;
+    background:#ee202d;
+    color:#fff;
+    font-size:1.2em;
+    position:absolute;
+    top:0;
+    
+}
+
+.button-promotion{
+    padding:10px 40px;
+    color:#fff;
+    background:#ee202d;
+    display:block;
+    border-radius:4px;
+    margin:0 auto;
+    border:0;
+}
+
+.promotion-title{
+    margin-bottom: 14px;
+}
+.relative{
+    position:relative;
+}
+.relative .promotion-sidebar{
+    color:#fff;
+    background:#ee202d;
+    padding:10px;
+    position:absolute;
+    bottom:50px;
+    right:70px;
+}
+/*=========== MARKETS NEAR ================*/
+.deals-near,.markets-near{
+     margin-top:50px; 
+}
+
+
+.main-content{
+    padding-right:30px;
+}
+
+div.hour{
+    font-size:0.8em;
+}
+
+/*======= DEALS NEAR ========*/
+.deals-near span.price{
+    background:orange;
+}
+
+/*==== MAILING LIST ====*/
+.hero .container{
+    padding:10px;
+    background:#3f3f3f;
+    color:#fff;
+    font-size:1.2em;
+    border-bottom:1px solid #cdcd83;
+    font-family:'Poiret One';
+}
+
+.hero input{
+    font-weight: bold;
+    background:#1f2438;
+    margin-left:15px;
+    font-family:'Helvetica';
+}
+
+
+
+/* ====== FOOTER ======*/
+
+
+footer .container{
+    background:#1f2438;
+    padding:30px;
+    color:#eee;
+    
+}
+
+footer .menu-title{
+    color:#ccdd83;
+    padding-bottom:10px;
+}
+
+footer input,textarea{
+    margin-bottom: 10px;
+}
+
+.social{
+    font-size:1.5em;
+    color:#cdcd83;
+}
+
+.btn-message{
+    background:#cdcd83;
+    color:#1f2348;
+}
